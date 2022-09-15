@@ -106,13 +106,13 @@ font-face {
 }
 
 /*estilo scrolling*/
-
+/*
 .catalogo-scroll-imagen {
     width: 200%;
     height: 400px;
     overflow-x: scroll;
     overflow-y: hidden;
-}
+}*/
 
 .catalogo {
     display: flex;
