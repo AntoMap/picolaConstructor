@@ -417,7 +417,18 @@ h1 {
     text-align: center;
     text-indent: 10px;
 }
+.bodyForm {
+    margin: 10px;
+    background-color: #EAE5D1;
+}
 
+.button{
+color: #EDA148 ;
+}
+.btn-btn-primary {
+    color: #EDA148;
+}
+  
 .cardsPresupuesto {
     display: flex;
     flex-direction: column;
