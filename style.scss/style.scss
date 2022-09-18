@@ -1,0 +1,51 @@
+/*Estilos generales*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* TÍTULO h1 */
+.titulo {
+    font-family: 'Aclonica', sans-serif;
+    font-size: 20px;
+    left: 200px;
+    top: 200px;
+    padding: 15px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 10px;
+    align-items: center;
+    text-align: center;
+    text-indent: 10px;
+    color: #425C81;
+}
+
+/*subtitulos*/
+.subtitulo {
+    font-family: 'Aclonica', sans-serif;
+    font-size: 18px;
+    color: #425C81;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 28px;
+    text-align: center;
+}
+
+/*cuerpo*/
+.cuerpo {
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 14px;
+    padding: 10px;
+    flex: 1 1 100%;
+    display: inline;
+    overflow: hidden;
+}
+
+.lineaDivisora {
+    size: 10px;
+    height: 10px;
+    width: 100%;
+    padding: 2px;
+    color: #425C81
+}
