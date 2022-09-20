@@ -35,27 +35,51 @@
 }
 
 /*cuerpo*/
-.cuerpo {
+.cuerpoPerfil {
+    
     font-family: 'Darker Grotesque', sans-serif;
     font-size: 14px;
-    padding: 10px;
+    padding: 20px;
+    flex: 1 1 100%;
+    
+    text-align: center;
+   
+    height: 100%;
+    width: auto;
+   
+}
+.cuerpo {
+        font-family: 'Darker Grotesque', sans-serif;
+    font-size: 14px;
+    padding: 20px;
     flex: 1 1 100%;
     display: inline;
     overflow: hidden;
+    text-align: center;
+    justify-content: center;
+   
+}
+.container sm{
+    text-align:center;
+    padding: 20px;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 18px;
+
 }
 
+
 .lineaDivisora {
-    size: 10px;
-    height: 10px;
+    size: 50px;
+    height: 20px;
     width: 100%;
-    padding: 2px;
+    padding-top: 50px;
     color: #425C81
 }
 
 .imagenFondo {
     height: 2fr;
     width: auto;
-    background: url(./imagenes/terminada.jpg);
+    background: url(./imagenes/frente\ 1.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -124,6 +148,9 @@ font-face {
 .link {
     color: #425C81;
     text-decoration: none;
+    font-family: 'Aclonica', sans-serif;
+    font-size: 20px;
+    
 }
 
 .link:active {
@@ -133,6 +160,12 @@ font-face {
 
 .link:visited {
     color: #425C81
+}
+a{
+    color:#425C81;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: transparent;
 }
 
 /*estilo scrolling*/
@@ -147,12 +180,14 @@ font-face {
     max-width: 100%;
     height:auto;
 }
-.carouselExampleControls{
-    background: linear-gradient(rgba(5, 7, 12, 0.8), rgba(5, 7, 12, 0.2));
+
+.carouseControls{
+    position: relative;   
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    height: 20em;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 .carousel-inner{
     height: auto;
@@ -242,7 +277,7 @@ font-face {
 
 .perfil {
     background-color: #F2F0E9;
-    padding: 20px;
+    padding: 50px;
     margin: auto;
     font-size: 20px;
     font-family: 'Darker Grotesque', sans-serif;
@@ -272,6 +307,7 @@ font-face {
     justify-items: center;
     gap: 10px;
     margin: 15px;
+    padding: 30px;
 }
 
 .tarjeta {
@@ -324,7 +360,7 @@ font-face {
 
 h5 {
     font-size: 20px;
-    padding: 20px;
+    
     font-family: 'Aclonica', sans-serif;
     font-weight: bold;
 }
@@ -335,7 +371,7 @@ h5 {
     display: flex;
     flex-direction: row;
     height: 100%;
-    background-color: #EAE5D1;
+    background-color: #F2F0E9;
 }
 
 .info {
@@ -355,6 +391,7 @@ h5 {
 
 .barraInferior {
     background-color: #425C81;
+   padding:20px
 }
 
 footer {
@@ -402,9 +439,11 @@ h6 {
     flex-direction: row;
     justify-content: center;
     justify-items: center;
-    gap: 16px;
+    gap:10px;
     margin: 0px;
-    background-color: beige;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color:#F2F0E9;
 }
 
 .contacto {
@@ -506,14 +545,15 @@ h1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 10px;
+    gap: 20px;
     justify-items: center;
+    padding: 50px;
 }
 
 .imgGaleria {
     position: relative;
-    width: 360px;
-    height: 360px;
+    width: 380px;
+    height: 380px;
     padding: 10px;
     margin: 10px;
     background-color: #425C81;
